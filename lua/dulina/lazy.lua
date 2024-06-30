@@ -11,4 +11,9 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.runtimepath:prepend(lazypath)
 
-require("lazy").setup("dulina.plugins")
+require("lazy").setup("dulina.plugins", { 
+  change_detection = {
+    notify = false
+  }
+})
+
