@@ -12,6 +12,10 @@ end
 vim.opt.runtimepath:prepend(lazypath)
 
 require("lazy").setup("dulina.plugins", { 
+  checker = {
+    enabled = true,
+    notify = false
+  },
   change_detection = {
     notify = false
   }
