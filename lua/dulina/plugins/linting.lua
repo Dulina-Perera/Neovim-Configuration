@@ -27,40 +27,16 @@ return {
 		mason_lspconfig.setup({
 			-- list of servers for mason to install
 			ensure_installed = {
-				"angularls",
-				"asm_lsp",
-				"bashls",
-				"clangd",
-				"csharp_ls",
-				"omnisharp",
-				"cmake",
-				"cssls",
-				"dockerls",
-				"dotls",
-				"glslls",
-				"gradle_ls",
-				"html",
-				"jsonls",
-				"jdtls",
 				"tsserver",
-				"julials",
-				"kotlin_language_server",
-				"texlab",
-				"lua_ls",
-				"autotools_ls",
-				"marksman",
-				"mesonlsp",
-				"spectral",
-				"pyright",
-				"r_language_server",
-				"sorbet",
-				"rust_analyzer",
-				"sqlls",
-				"solidity",
-				"taplo",
+				"html",
+				"cssls",
 				"tailwindcss",
-				"volar",
-				"hydra_lsp",
+				"svelte",
+				"lua_ls",
+				"graphql",
+				"emmet_ls",
+				"prismals",
+				"pyright",
 			},
 		})
 
@@ -69,7 +45,7 @@ return {
 				"prettier", -- prettier formatter
 				"stylua", -- lua formatter
 				"isort", -- python formatter
-				"black", -- python formatter,
+				"black", -- python formatter
 				"pylint", -- python linter
 				"eslint_d", -- js linter
 			},
